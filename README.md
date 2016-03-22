@@ -1,5 +1,4 @@
-# Adansa
-
+# Adansa [![Build Status](https://secure.travis-ci.org/anteknik/adansa.png?branch=master)](https://travis-ci.org/anteknik/adansa)
 Adansa is an attempt for a simple yet robust application covering mostly basic business function.
 
 ### Prerequisite
@@ -10,12 +9,13 @@ Adansa is an attempt for a simple yet robust application covering mostly basic b
 5. OPTIONAL: Spring Tool Suite / Eclipse with STS Plugin 3.7
 
 ### Installation
-#### 1. Install Database
-Create Login Role with following attributes:
-* Username : adansa
-* Password : adansa
+#### Install Database
+        
+ Create a database with the same name:  adansa
 
-After that, create also a database with the same name:  adansa
+Login Role with following attributes:
+* Username : admin
+* Password : admin
 
 You can use command-line for starter, but it is highly recommended to use Eclipse / STS as your IDE.
 * 2.1 Command Line
